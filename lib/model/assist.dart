@@ -39,7 +39,6 @@ class Assist {
   @override
   bool operator ==(covariant Assist other) {
     if (identical(this, other)) return true;
-
     return other.id == id &&
         other.title == title &&
         other.description == description;
